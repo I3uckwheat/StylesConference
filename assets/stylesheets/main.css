@@ -56,6 +56,9 @@ body {
   color: #888;
   font: 300 16px/22px "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
+h1, h3, h5, p {
+  color: #648880;
+}
 
 h1 {
   font-size: 36px;
@@ -71,9 +74,20 @@ h3 {
   font-size: 21px;
 }
 
-h1 {
-  font-size: 18px;
+h5 {
+  color: #a9b2b9;
+  font-size: 14px;
+  font-weight: 400;
 }
+
+strong {
+  font-weight: 400;
+}
+
+cite, em {
+  font-style: italic;
+}
+
 
 /*===================================================
 Grid
@@ -127,9 +141,7 @@ Typography
 
 h1, h3, h5, p {
   margin-bottom: 22px;
-  color: #648880;
 }
-
 /*
 =====================================================
 Buttons
@@ -201,3 +213,24 @@ Primary Footer
   padding-top: 44px;
 }
 
+/*================================================
+links
+===================================================
+  */
+
+a:hover {
+  color: #a9b2b9;
+
+}
+
+a {
+  color: #648880;
+}
+
+.logo {
+  border-top: 4px solid #468880;
+  float: left;
+  font-size: 48px:
+  line-height: 44px;
+  padding: 40px 0px 22px 0;
+}
