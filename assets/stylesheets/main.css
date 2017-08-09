@@ -47,6 +47,33 @@ table {
 	border-spacing: 0;
 }
 
+/*===================================================
+Custom Styles
+=====================================================
+  */
+
+body {
+  color: #888;
+  font: 300 16px/22px "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h1 {
+  font-size: 36px;
+  line-height: 44px;
+}
+
+h2 {
+  font-size: 24px;
+  line-height: 44px;
+}
+
+h3 {
+  font-size: 21px;
+}
+
+h1 {
+  font-size: 18px;
+}
 
 /*===================================================
 Grid
@@ -100,6 +127,7 @@ Typography
 
 h1, h3, h5, p {
   margin-bottom: 22px;
+  color: #648880;
 }
 
 /*
