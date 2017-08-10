@@ -170,6 +170,7 @@ Home
 .hero {
   padding: 22px 80px 66px 80px;
   line-height: 44px;
+  text-align: center;
 }
 
 .hero h2 {
@@ -271,4 +272,12 @@ p a {
 
 .teaser a:hover h3 {
   color: #a9b2b9;
+}
+
+/*======================================
+Navigation
+=========================================  */
+
+.nav {
+  text-align: right;
 }
